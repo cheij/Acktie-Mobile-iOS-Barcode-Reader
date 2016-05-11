@@ -203,7 +203,7 @@ static const enum zbar_symbol_type_e allSymbols[] =
     CGRect r = view.bounds;
     r.origin.y = r.size.height - 54;
     r.size.height = 54;
-    controls = [[UIView alloc] initWithFrame: r];
+    controls = [[[UIView alloc] initWithFrame: r] autorelease];
     controls.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.0];
     
     [controls setAlpha:0.75f];
@@ -436,7 +436,7 @@ static const enum zbar_symbol_type_e allSymbols[] =
             if(overlayImageName != nil)
             {
                 // Add Image overlay
-                UIImageView *imageView = [[UIImageView alloc] initWithImage:[self imageNamed:overlayImageName]];
+                UIImageView *imageView = [[[UIImageView alloc] initWithImage:[self imageNamed:overlayImageName]] autorelease];
                 imageView.backgroundColor = [UIColor clearColor];
                 imageView.alpha = [self overlayAlpha:overlay];
                 

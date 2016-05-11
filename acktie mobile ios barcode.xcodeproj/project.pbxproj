@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -28,6 +28,7 @@
 		24DE9E1211C5FE74003F90F6 /* ComAcktieMobileIosBarcodeModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComAcktieMobileIosBarcodeModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* ComAcktieMobileIosBarcode_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComAcktieMobileIosBarcode_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		B21557BC1CE35E81002D4980 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B21557BB1CE35E81002D4980 /* libiconv.2.dylib */; };
 		EF12C242160A82140047DE36 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2D90E615B4DD680025D020 /* Decoder.h */; };
 		EF12C243160A82140047DE36 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2D90E715B4DD680025D020 /* Exception.h */; };
 		EF12C244160A82140047DE36 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2D90E815B4DD680025D020 /* Image.h */; };
@@ -52,7 +53,6 @@
 		EF2D911B15B4DDC00025D020 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2D911A15B4DDC00025D020 /* CoreMedia.framework */; };
 		EF2D911D15B4DDCA0025D020 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2D911C15B4DDCA0025D020 /* CoreVideo.framework */; };
 		EF2D911F15B4DDD50025D020 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2D911E15B4DDD50025D020 /* QuartzCore.framework */; };
-		EF2D912115B4DDE50025D020 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2D912015B4DDE50025D020 /* libiconv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +73,7 @@
 		24DE9E1011C5FE74003F90F6 /* ComAcktieMobileIosBarcodeModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComAcktieMobileIosBarcodeModuleAssets.m; path = Classes/ComAcktieMobileIosBarcodeModuleAssets.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComAcktieMobileIosBarcode_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComAcktieMobileIosBarcode_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B21557BB1CE35E81002D4980 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ../../../../../usr/lib/libiconv.2.dylib; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libComAcktieMobileIosBarcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComAcktieMobileIosBarcode.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E796329116C894A000A6B9A9 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
 		EF2D90E615B4DD680025D020 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
@@ -104,7 +105,6 @@
 		EF2D911A15B4DDC00025D020 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		EF2D911C15B4DDCA0025D020 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		EF2D911E15B4DDD50025D020 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EF2D912015B4DDE50025D020 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2D912115B4DDE50025D020 /* libiconv.dylib in Frameworks */,
+				B21557BC1CE35E81002D4980 /* libiconv.2.dylib in Frameworks */,
 				EF2D911F15B4DDD50025D020 /* QuartzCore.framework in Frameworks */,
 				EF2D911D15B4DDCA0025D020 /* CoreVideo.framework in Frameworks */,
 				EF2D911B15B4DDC00025D020 /* CoreMedia.framework in Frameworks */,
@@ -135,7 +135,6 @@
 		0867D691FE84028FC02AAC07 /* acktie mobile ios barcode */ = {
 			isa = PBXGroup;
 			children = (
-				EF2D912015B4DDE50025D020 /* libiconv.dylib */,
 				EF2D911E15B4DDD50025D020 /* QuartzCore.framework */,
 				EF2D911C15B4DDCA0025D020 /* CoreVideo.framework */,
 				EF2D911A15B4DDC00025D020 /* CoreMedia.framework */,
@@ -153,6 +152,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B21557BB1CE35E81002D4980 /* libiconv.2.dylib */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -304,7 +304,7 @@
 				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "acktie mobile ios barcode" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -387,6 +387,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
@@ -401,8 +402,8 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
-				TITANIUM_SDK = "/Users/Nuzzi/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
-				TITANIUM_SDK_VERSION = 3.5.0.GA;
+				TITANIUM_SDK = "/Users/clemensheij/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 5.2.2.GA;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -432,8 +433,8 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 9.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
@@ -443,8 +444,8 @@
 				PRODUCT_NAME = ComAcktieMobileIosBarcode;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
-				TITANIUM_SDK = "/Users/Nuzzi/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
-				TITANIUM_SDK_VERSION = 3.5.0.GA;
+				TITANIUM_SDK = "/Users/clemensheij/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 5.2.2.GA;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -475,7 +476,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -487,8 +488,8 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
-				TITANIUM_SDK = "/Users/Nuzzi/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
-				TITANIUM_SDK_VERSION = 3.5.0.GA;
+				TITANIUM_SDK = "/Users/clemensheij/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 5.2.2.GA;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -518,15 +519,15 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ComAcktieMobileIosBarcode;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
-				TITANIUM_SDK = "/Users/Nuzzi/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
-				TITANIUM_SDK_VERSION = 3.5.0.GA;
+				TITANIUM_SDK = "/Users/clemensheij/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 5.2.2.GA;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -539,9 +540,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_NAME = "Build & test";
-				TITANIUM_SDK = "/Users/Nuzzi/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
-				TITANIUM_SDK_VERSION = 2.1.3.GA;
+				TITANIUM_SDK = "/Users/clemensheij/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 5.2.2.GA;
 			};
 			name = Debug;
 		};
@@ -553,9 +555,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_NAME = "Build & test";
-				TITANIUM_SDK = "/Users/Nuzzi/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
-				TITANIUM_SDK_VERSION = 2.1.3.GA;
+				TITANIUM_SDK = "/Users/clemensheij/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 5.2.2.GA;
 				ZERO_LINK = NO;
 			};
 			name = Release;

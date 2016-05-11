@@ -1,2 +1,2 @@
-git tag -a 1.6 -m "Creating Tag 1.6"
+git tag -a 1.9 -m "Creating Tag 1.9"
 git push --tags
